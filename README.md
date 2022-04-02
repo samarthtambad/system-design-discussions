@@ -15,6 +15,7 @@ Let's keep listing the topics of interest and we'll get to it in an upcoming ses
 
 ## Reference Materials
 - [Notion Data Model](https://www.notion.so/blog/data-model-behind-notion)
+- [System Design Interview (Github repo)](https://github.com/checkcheckzz/system-design-interview)
 
 ## Misc
 - Understand the design of the various components and features of Notion. If feasible, implement an open-source version of it with a minimized feature set.

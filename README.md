@@ -4,7 +4,7 @@ Welcome folks! This is where the magic happens...
 Let's keep listing the topics of interest and we'll get to it in an upcoming session.
 
 ## Topics
-- Design leetcode
+- [Design leetcode](notes/design-leetcode.md)
   - [ ] Data model for users
   - [ ] Online judge
   - [ ] How to support contests? - scoring, latency, scale

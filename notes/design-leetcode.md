@@ -1,7 +1,7 @@
 # Design Leetcode
 Disecting LeetCode website and designing various features that it supports.
 
-[Whiteboard](diagrams/design-leetcode.draw)
+[Whiteboard](../diagrams/design-leetcode.draw)
 
 ## Functional Requirements
 - Get list of problems

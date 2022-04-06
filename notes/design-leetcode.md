@@ -148,6 +148,11 @@ response payload
 ```
 
 
+## References
+1. https://dzone.com/articles/patterns-for-microservices-sync-vs-async
+2. https://matthewminer.com/2015/02/21/pattern-for-async-task-queue-results
+3. https://davidwalsh.name/javascript-polling
+
 ### Questions
 1. How does the code editor support multiple languages
 Does it download all the code for code editor for all

@@ -8,6 +8,7 @@ Let's keep listing the topics of interest and we'll get to it in an upcoming ses
 - Design Notion
 - Design GitHub
 - Design Google Maps
+- Design Discord
 
 ## Reference Materials
 - [Notion Data Model](https://www.notion.so/blog/data-model-behind-notion)

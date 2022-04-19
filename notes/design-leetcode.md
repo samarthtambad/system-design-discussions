@@ -219,21 +219,7 @@ We can see that the response object contains precalculated percentile for each m
 
 Let's try to think how to design a system that can accept new data (such as language, runtime and memory used) and respond to queries with distribution percentile for the given data and/or the destribution percentiles for all data points over a range with a specific granularity for the given problem id.
 
-
-```python
-
-class Distribution
-  def __init__(self):
-    pass
-
-  def insert(data):
-    pass
-
-  def calculate(data):
-    pass
-    
-```
-
+It seems that a solution to get exact percentile would require storing all the runtime/memory data, sorting them and doing a binary search to find the sorted position of the new item to calculate its percentile. This is neither CPU or memory efficient. However, if approximate percentiles are acceptable, there exist more efficient algorithms that make use of binning. (See [this](https://stackoverflow.com/questions/1248815/percentiles-of-live-data-capture) for more info)
 
 
 ## Notes
@@ -243,6 +229,8 @@ class Distribution
 1. https://dzone.com/articles/patterns-for-microservices-sync-vs-async
 2. https://matthewminer.com/2015/02/21/pattern-for-async-task-queue-results
 3. https://davidwalsh.name/javascript-polling
+4. https://stackoverflow.com/questions/1248815/percentiles-of-live-data-capture
+5. https://www.circonus.com/2018/11/the-problem-with-percentiles-aggregation-brings-aggravation/
 
 ### Questions
 1. How does the code editor support multiple languages

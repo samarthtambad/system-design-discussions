@@ -1,31 +1,4 @@
-# Design Leetcode
-Disecting LeetCode website and designing various features that it supports.
-
-[Whiteboard](../diagrams/design-leetcode.draw)
-
-## Functional Requirements
-- Get list of problems
-- Code editor to edit code in multiple languages
-- Run the code
-- Submit the code
-- Contest
-   - How is the code evaluated with low latency
-   - How are the scores calculated?
-   - How is leaderboard updated?
-   - What all data is stored?
-- Tagging of questions and filtering based on tags
-- Subscriptions: payment and management of access to permium content
-- Discussions: general discussion, discussions integrated into the problem
-- Performance statistics
-
-
-## Non-functional Requirements
-- Highly available
-- Low latency
-- Eventual consistency
-
-
-## APIs Design
+## Design Submit Code
 
 ### How does running/submitting the code work? What happens in the background?
 
@@ -223,7 +196,7 @@ It seems that a solution to get exact percentile would require storing all the r
 
 
 ## Notes
-1. Angular is being used for front-end 
+1. Angular is used for front-end 
 
 ## References
 1. https://dzone.com/articles/patterns-for-microservices-sync-vs-async
